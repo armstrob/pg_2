@@ -1,0 +1,15 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "phonegap-plugin-barcodescanner": {
+            "PACKAGE_NAME": "com.phonegap.pg_2"
+        }
+    },
+    "dependent_plugins": {}
+}
