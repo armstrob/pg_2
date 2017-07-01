@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-        <title>Blank App</title>
-    </head>
-    <body>
-    <div class="app">
-        <h1>PhoneGap</h1>
 
-    </div>
-    <button onclick="doScan();" style="width: 100px; height: 80px;">Do Scan</button>
-    <script type="text/javascript" src="cordova.js"></script>
-    <script type="text/javascript" src="js/index.js"></script>
-    <script type="text/javascript">
-        app.initialize();
-    </script>
-    </body>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>AGY Scanner</title>
+</head>
+
+<body>
+    <div><button id="scanResult" style="width:90%;;height:400px;border:1px; background-color: green;"></div>
+    <div><img src="scanicon.gif" alt="hel2" width="100px" height="100px"/>
+    <button onclick="doScan();" style="width: 80%; height: 20%;">Do The Scan Aready</button>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript">
+            app.initialize();
+        </script>
+</body>
+
 </html>
