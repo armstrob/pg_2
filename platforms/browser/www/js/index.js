@@ -11782,7 +11782,5 @@ var bobbinAry = [
     'M30801YF2',
     'M30801YGB',
     'M30801YIY',
-    "N0670AONE",
-    "M0D204ZU2",
     'M30801YLM'
 ]
