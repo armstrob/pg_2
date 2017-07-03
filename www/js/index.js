@@ -73,6 +73,7 @@ function doScan() {
 }
 
 var bobbinAry = [
+    'M0D205022',
     'M0L906W3S',
     'M0L906W6G',
     'M0L906WEG',

@@ -12,5 +12,6 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
+    <icon height="180" src="AGY_logo.png" width="180" />
     <preference name="loglevel" value="DEBUG" />
 </widget>
